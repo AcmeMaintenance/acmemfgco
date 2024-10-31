@@ -3,32 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Embedded Google Form</title>
+    <title>Google Form</title>
     <style>
-        body {
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
             background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
         }
         .form-container {
             width: 100%;
             max-width: 800px;
+            height: 90vh;
         }
         iframe {
             width: 100%;
-            height: 90vh;
+            height: 100%;
             border: none;
         }
     </style>
 </head>
 <body>
     <div class="form-container">
-        <!-- Paste the embed code here -->
-        <iframe src=<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeTkooz7RcE2ehBl8QbvynGj0FMhRPIn1sAqP8IjkdtXCl8zw/viewform?embedded=true" width="640" height="812" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> frameborder="0"></iframe>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeTkooz7RcE2ehBl8QbvynGj0FMhRPIn1sAqP8IjkdtXCl8zw/viewform?embedded=true"></iframe>
     </div>
 </body>
 </html>
